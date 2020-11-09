@@ -57,7 +57,7 @@ Python 3.6.9
 torchvision 0.7.0
 ```
 ## trained model     
-The trained model used in the paper can be found in *logs/lr_4e-4_imbalance/checkpoint_latest.pth*       
+The trained model *checkpoint_latest.pth* used in the paper can be found in downloaded in this [*link*](https://1drv.ms/u/s!ArUa6rRh8DPQ0CPd7D5A6c8rg08s?e=ofnrhK)  
 This model is trained on *2 $\times$ NVIDIA GeForce RTX 2080 Ti for 100 epoches*.       
 As for *checkpoint_best.pth* has some issues and cannot provide best performance.      
 ## Training     
