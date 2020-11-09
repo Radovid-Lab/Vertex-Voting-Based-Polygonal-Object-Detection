@@ -1,0 +1,38 @@
+io:
+  logdir: logs/
+  datadir: /tudelft.net/staff-bulk/ewi/insy/VisionLab/klang/experiments/lcnn/data/wireframe
+  mAP: mAP/input
+  resume_from:  
+  num_workers: 4
+  tensorboard_port: 0
+  validation_interval: 9000
+
+model:
+  image: # not useful right now. images are not normalized
+    mean: [109.730, 103.832, 98.681]
+    stddev: [22.275, 22.124, 23.229]
+
+  batch_size: 10 #6 
+  batch_size_eval: 1 #2
+
+  # backbone multi-task parameters
+  head_size: [[1], [2], [2], [2]] #center,corner,corner_offset,corner_bin_offset
+  loss_weight: # keep equal weight in the begining as weights of different branches are learnable
+    center: 1
+    corner: 1
+    corner_offset: 1
+    corner_bin_offset: 1
+
+  # backbone parameters
+  backbone: stacked_hourglass
+  depth: 6
+  num_stacks: 2
+  num_blocks: 1
+
+optim:
+  name: Adam
+  lr: 4.0e-4
+  amsgrad: True
+  weight_decay: 1.0e-4
+  max_epoch: 20
+  lr_decay_epoch: 10

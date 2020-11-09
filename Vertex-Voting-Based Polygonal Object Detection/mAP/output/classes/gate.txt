@@ -1,0 +1,21 @@
+# IOU and average precision for class: gate 
+IOU threshold: 0.5, Average Precision: 0.8345 
+IOU threshold: 0.5, Recall: 0.8573 
+IOU threshold: 0.55, Average Precision: 0.8189 
+IOU threshold: 0.55, Recall: 0.8474 
+IOU threshold: 0.6, Average Precision: 0.8026 
+IOU threshold: 0.6, Recall: 0.8344 
+IOU threshold: 0.65, Average Precision: 0.784 
+IOU threshold: 0.65, Recall: 0.8208 
+IOU threshold: 0.7, Average Precision: 0.765 
+IOU threshold: 0.7, Recall: 0.8068 
+IOU threshold: 0.75, Average Precision: 0.737 
+IOU threshold: 0.75, Recall: 0.787 
+IOU threshold: 0.8, Average Precision: 0.6804 
+IOU threshold: 0.8, Recall: 0.7547 
+IOU threshold: 0.85, Average Precision: 0.5785 
+IOU threshold: 0.85, Recall: 0.6833 
+IOU threshold: 0.9, Average Precision: 0.1901 
+IOU threshold: 0.9, Recall: 0.3656 
+IOU threshold: 0.95, Average Precision: 0.0133 
+IOU threshold: 0.95, Recall: 0.0828 

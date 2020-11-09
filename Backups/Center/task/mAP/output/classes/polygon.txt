@@ -1,0 +1,11 @@
+# IOU and precision for class: polygon 
+IOU threshold: 0.5, Precision: 0.41 
+IOU threshold: 0.55, Precision: 0.41 
+IOU threshold: 0.6, Precision: 0.35 
+IOU threshold: 0.65, Precision: 0.32 
+IOU threshold: 0.7, Precision: 0.29 
+IOU threshold: 0.75, Precision: 0.24 
+IOU threshold: 0.8, Precision: 0.24 
+IOU threshold: 0.85, Precision: 0.15 
+IOU threshold: 0.9, Precision: 0.03 
+IOU threshold: 0.95, Precision: 0.0 
