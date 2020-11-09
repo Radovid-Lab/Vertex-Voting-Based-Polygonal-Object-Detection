@@ -47,7 +47,8 @@ train.py                            # script for training the multi-task learnin
 
 # Reproducing Results       
 ## dataset
-The dataset used in this paper is from [*P. Duernay's work*](https://repository.tudelft.nl/islandora/object/uuid%3A82cb0f68-061e-4346-b536-a35a61621e51?collection=education). Download is not provided in this repository, please contact the author if you want to use it.     
+The dataset used in this paper is from [*P. Duernay's work*](https://repository.tudelft.nl/islandora/object/uuid%3A82cb0f68-061e-4346-b536-a35a61621e51?collection=education). Download is not provided in this repository, please contact the author if you want to use it. Examples:       
+<img src="figs/gate_dataset.png" width="1000">
 ## installation      
 The software and their versions used in this paper are as follows:
 ```
