@@ -5,7 +5,8 @@ This repository contains the PyTorch implementation of my master thesis: [*Verte
 Vertex-Voting-Based Polygonal Object Detection framework is an approach to extract objects' polygonal representations. This framework uses a proposal-free voting method which is proved to be more robust to occlusion scenarios. The framework contains two stages, one is multi-task learning which is used for the extraction of geometrical cues, another is a post-processing stage which is a combination of several unsupervised learning algorithms
 
 # Results    
-
+Results of the Vertex-Voting-Based Polygonal Object Detection framework. The first column is results from Mask R-CNN, column 2 and 3 are from our design        
+<img src="figs/results.png" width="180">
 # Code Structure      
 ```bash
 ########################### Code ###########################
