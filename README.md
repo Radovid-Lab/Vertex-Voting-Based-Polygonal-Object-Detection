@@ -6,7 +6,7 @@ Vertex-Voting-Based Polygonal Object Detection framework is an approach to extra
 
 # Results    
 Results of the Vertex-Voting-Based Polygonal Object Detection framework. The first column is results from Mask R-CNN, column 2 and 3 are from our design        
-<img src="figs/results.png" width="180">
+<img src="figs/results.png" width="500">
 # Code Structure      
 ```bash
 ########################### Code ###########################
